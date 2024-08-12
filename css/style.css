@@ -1,0 +1,314 @@
+/* ============================= */
+/* HEADER SECTION */
+/* ============================= */
+
+.header {
+  background-color: #f8f8f8;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /*  We want to be sticky later  */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+
+  position: relative;
+}
+.logo {
+  height: 6.8rem;
+}
+
+/* ============================= */
+/* NAVIGATION SECTION */
+/* ============================= */
+
+.main-nav-list {
+  /* font-size: 3.2rem; */
+  list-style: none;
+  align-items: center;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  font-size: 1.8rem;
+
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #e67e22;
+  font-weight: 700;
+}
+
+
+/* Dropdown button */
+.dropbtn {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-size: 1.8rem;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* ============================= */
+/* HERO SECTION */
+/* ============================= */
+.section-hero {
+  background-color: #f8f8f8;
+  /* padding: 4.8rem 0 9.6rem 0; */
+  padding: 16rem ;
+}
+
+.hero {
+  max-width: 100rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center; 
+  padding: 0 3.2rem;
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 3rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-image-box {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 32px;
+  /* max-width: 100%; */
+}
+
+
+/* ============================= */
+/* A PASSION FOR CREATING SPACES SECTION */
+/* ============================= */
+
+.section-resources {
+  padding: 16rem ;
+  background-color: #f8f8f8;
+}
+
+.step-img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+/* ============================= */
+/* PASSION SECTION */
+/* ============================= */
+
+.section-passion {
+  background-color: #fff;
+  align-items: center;
+  padding: 6rem 0 ;
+}
+
+.passion-container {
+  padding: 9.6rem; 
+}
+
+.title-text{
+  font-size: 2.8rem;
+  font-weight: bold;
+  padding: 3rem 0;
+} 
+
+.spaces-box-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.spaces-box-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+
+/* ============================= */
+/* CEO SECTION */
+/* ============================= */
+
+.section-ceo {
+  width:  100%;
+  padding: 35rem ;
+  background-color: #000;
+  line-height: 1.5;
+}
+
+.content-text{
+  font-size: 55px;
+  color: #f1f1f1;
+  font-style: italic;
+  text-align:center;
+}
+.centered-text {
+  font-size: 26px;
+  font-family: Arial;
+  color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.sub-text {
+  font-size: 24px;
+  font-family:Arial;
+  color: #f1f1f194;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+
+/* ============================= */
+/*  JOIN SUBSCRIBERS SECTION */
+/* ============================= */
+
+.section-join {
+  /* top / right / buttom/ left */
+  padding: 4.8rem 0 12.8rem;
+  margin: 20rem 25rem;
+}
+
+.join {
+  box-shadow: 0 0 5.8rem rgba(0, 0, 0, 0.1);
+  border-radius: 2rem;
+}
+
+.join-text-box {
+  padding: 14rem;
+  text-align: center;
+  /* color: #45260a; */
+}
+
+.join .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.6rem;
+  font-size: 5.6rem;
+}
+
+.join-text {
+  font-size: 2.8rem;
+  line-height: 1.8rem;
+  margin-bottom: 4.8rem;
+}
+
+
+/* ============================= */
+/* FOOTER SECTION */
+/* ============================= */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 2.5fr 1fr 1fr 0.5fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: block;
+  line-height: 1.6;
+  margin-bottom: 3.2em;
+}
+
+
+.copyright {
+  font-size: 1.8rem;
+  color: #767676;
+  padding-right: 16rem;
+  line-height: 1.6;
+  /* margin-top: auto; */
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+
+.footer-nav {
+  list-style: none;
+
+  /*  use this to add gab between links */
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
